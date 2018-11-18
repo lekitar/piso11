@@ -521,72 +521,16 @@
 							<div role="tabpanel" class="tab-pane" id="multimedia">
 
 								<div class="row">
-									<div class="col-md-6 col-sm-12 titulo rojo-texto"> 
-										<h2> Confirmación de Reserva</h2>
-									</div>
-
-								</div>
-								<div class="row">
-									<div class="col-md-4">
-										<div class="form-group">
-											<label class="control-label" for="id_provincia">Provincia<span class="req"> *</span></label>
-											<div class="controls">
-
-												<select id="id_provincia" class="form-control" data-role="select" name="id_provincia" required="required" selected="selected" data-parsley-errors-container="#errId26">
-
-
-
-
-
-													<option value="Selecione una opci?n...">Selecione una opción...</option>
-												</select><span id="errId26" class="error">
-													
-												</span>
+									<div class="col-md-12 col-sm-12 col-xs-12 dropzone1 parent"  >
+										<form action="/file-upload" >
+											<div class="fallback col-md-12 child text-center center-block ">
+												<p> Arraste archivos .JPG o .PNG para subirlos</p>
+												<input  class=" center-block" name="file" type="file" multiple />
+												<p> Tamaño máximo 10 MB</p>
 											</div>
-
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group">
-											<label class="control-label" for="id_canton">Ciudad<span class="req"> *</span></label>
-											<div class="controls">
-
-												<select id="id_canton" class="form-control" data-role="select" selected="selected" required="required" name="id_canton" data-parsley-errors-container="#errId27">
+										</form>
 
 
-													<option value="Selecione una opci?n...">Selecione una opción...</option>
-												</select>
-												<span id="errId27" class="error"></span>
-											</div>
-
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group">
-											<label class="control-label" for="id_parroquia">Zona<span class="req"> *</span></label>
-											<div class="controls">
-
-												<select id="id_parroquia" class="form-control" data-role="select" selected="selected" required="required" name="id_parroquia" data-parsley-errors-container="#errId28">
-
-
-													<option value="Selecione una opción...">Selecione una opción...</option>
-												</select>
-												<span id="errId28" class="error">
-
-												</span>
-											</div>
-
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<label class="control-label" for="direccion">Dirección donde se encuentra el inmueble...<span class="req"> *</span></label>
-											<div class="controls">
-
-												<textarea id="direccion" rows="3" class="form-control k-textbox" data-role="textarea" required="required" name="direccion" data-minlength="10" data-maxlength="100" data-parsley-errors-container="#errId29"></textarea><span id="errId29" class="error"></span>
-											</div>
-
-										</div>
 									</div>
 								</div>
 								<div class="row ">
