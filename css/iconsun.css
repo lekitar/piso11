@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'sun-icon';
+  src:  url('../fonts/sun-icon.eot?z1tqtv');
+  src:  url('../fonts/sun-icon.eot?z1tqtv#iefix') format('embedded-opentype'),
+    url('../fonts/sun-icon.ttf?z1tqtv') format('truetype'),
+    url('../fonts/sun-icon.woff?z1tqtv') format('woff'),
+    url('../fonts/sun-icon.svg?z1tqtv#sun-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sun-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star1sun:before {
+  content: "\e900";
+ 
+}
+.icon-star2sun:before {
+  content: "\e901";
+
+}
+.icon-star3sun:before {
+  content: "\e902";
+ 
+}
+.icon-star4sun:before {
+  content: "\e903";
+
+}
+.icon-star5sun:before {
+  content: "\e904";
+ 
+}
+.icon-keysun:before {
+  content: "\e905";
+  
+}
